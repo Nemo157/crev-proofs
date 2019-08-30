@@ -1,0 +1,17 @@
+-----BEGIN CREV TRUST -----
+version: -1
+date: "2019-08-30T19:20:25.390171+02:00"
+from:
+  id-type: crev
+  id: 3RbuGjEXncb0DKkc48pm8X9eNlW1-Ze2r6qcv4RtLEI
+  url: "https://github.com/Nemo157/crev-proofs"
+ids:
+  - id-type: crev
+    id: ZCBwWlOeJyU79adJqX9-irGH5wrmuYxUPXeSrFKuayg
+    url: "https://github.com/Lokathor/crev-proofs"
+trust: medium
+comment: "They're a pretty vocal user on discord"
+-----BEGIN CREV TRUST SIGNATURE-----
+H963uu_MX1cI7HYfHJQVKcxdCLZWiWuogSQwWcMpkKpHzXnrJLmRWwRrFLC0iyybfij0ZBJAAvz4IpPYbEFGAw
+-----END CREV TRUST-----
+
