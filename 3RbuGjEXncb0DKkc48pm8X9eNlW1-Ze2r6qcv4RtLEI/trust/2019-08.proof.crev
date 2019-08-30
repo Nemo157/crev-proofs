@@ -15,3 +15,19 @@ comment: "They're a pretty vocal user on discord"
 H963uu_MX1cI7HYfHJQVKcxdCLZWiWuogSQwWcMpkKpHzXnrJLmRWwRrFLC0iyybfij0ZBJAAvz4IpPYbEFGAw
 -----END CREV TRUST-----
 
+-----BEGIN CREV TRUST -----
+version: -1
+date: "2019-08-30T19:21:52.453907+02:00"
+from:
+  id-type: crev
+  id: 3RbuGjEXncb0DKkc48pm8X9eNlW1-Ze2r6qcv4RtLEI
+  url: "https://github.com/Nemo157/crev-proofs"
+ids:
+  - id-type: crev
+    id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+    url: "https://github.com/dpc/crev-proofs"
+trust: medium
+-----BEGIN CREV TRUST SIGNATURE-----
+8MTFhlvRaYC9FE3v67Oc9xeM5lyN6CSeQFbhUvwpS9OEDad6FxffrcUc-RaXSnF5qFIB0M0koWg00QeWJi1uDQ
+-----END CREV TRUST-----
+
