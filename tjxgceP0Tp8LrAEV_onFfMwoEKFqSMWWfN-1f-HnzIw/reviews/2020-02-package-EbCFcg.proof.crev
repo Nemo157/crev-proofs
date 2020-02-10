@@ -1,0 +1,43 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-02-10T17:11:03.187657396+01:00"
+from:
+  id-type: crev
+  id: tjxgceP0Tp8LrAEV_onFfMwoEKFqSMWWfN-1f-HnzIw
+  url: "https://github.com/Nemo157/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: traitobject
+  version: 0.1.0
+  digest: mrCxpjxVETR7m06rtGmx71d6R5kQ_dlH25_WncE0UOk
+review:
+  thoroughness: none
+  understanding: none
+  rating: negative
+issues:
+  - id: "https://github.com/reem/rust-traitobject/issues/5"
+    severity: medium
+    comment: ""
+flags:
+  unmaintained: true
+comment: |-
+  Has future compat warnings over a year old, and given that it is unmaintained
+  there is very little possibility that these will be fixed.
+  
+  ```
+  warning: conflicting implementations of trait `Trait` for type `(dyn std::marker::Send + std::marker::Sync + 'static)`: (E0119)
+     |
+  71 | unsafe impl Trait for ::std::marker::Send + Sync { }
+     | ------------------------------------------------ first implementation here
+  72 | unsafe impl Trait for ::std::marker::Send + Send + Sync { }
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ conflicting implementation for `(dyn std::marker::Send + std::marker::Sync + 'static)`
+     |
+     = note: `#[warn(order_dependent_trait_objects)]` on by default
+     = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+     = note: for more information, see issue #56484 <https://github.com/rust-lang/rust/issues/56484>
+  ```
+----- SIGN CREV PROOF -----
+7L2kcVtGwPCIp_YAjfPIxsY_7uKpuuo-j3HFQtLlEKfch2wmm_OTFXUzM2pNZAt9wjlzKItWIk9PJPlqWdVjCg
+----- END CREV PROOF -----
+
